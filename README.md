@@ -25,7 +25,7 @@ To get started with the project, clone the repository and install the dependenci
 git clone https://github.com/Ulaganathan0709/react-vite-shopping-cart
 cd react-vite-shopping-cart
 npm install
-npm install bootstrap-react
+npm install bootstrap
 npm install prop-types
 npm run dev
 
