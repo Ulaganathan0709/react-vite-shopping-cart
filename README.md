@@ -51,4 +51,4 @@ react-vite-shopping-cart/
 ├── README.md
 
 ## Accessing the Deployed Application
-You can view a live demo of the application at: [Check out the USK Shopping Cart](https://uskshoppingcart.netlify.app/)>
+You can view a live demo of the application at: [Check out the USK Shopping Cart](https://uskshoppingcart.netlify.app/)
