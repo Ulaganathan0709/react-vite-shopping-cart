@@ -9,11 +9,19 @@ This is a simple shopping cart application built with React and Vite, styled wit
 - Remove items from the cart by clicking the "Remove from Cart" button.
 - Update the cart quantity number when items are added or removed.
 
+## Technologies Used
+
+- **React**: For building the user interface.
+- **Vite**: For the development build tool.
+- **Bootstrap**: For styling the application.
+- **PropTypes**: For type-checking of props.
+- **State Management**: Using React's `useState` hook to manage the state of the shopping cart.
+
 ## Installation
 
 To get started with the project, clone the repository and install the dependencies:
 
 ```sh
-git clone <repository_url>
+git clone https://github.com/Ulaganathan0709/react-vite-shopping-cart
 cd react-vite-shopping-cart
 npm install
