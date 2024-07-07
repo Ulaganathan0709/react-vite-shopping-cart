@@ -25,3 +25,30 @@ To get started with the project, clone the repository and install the dependenci
 git clone https://github.com/Ulaganathan0709/react-vite-shopping-cart
 cd react-vite-shopping-cart
 npm install
+npm install bootstrap-react
+npm install prop-types
+npm run dev
+
+## Project Structure
+
+react-vite-shopping-cart/
+├── public/
+│   ├── index.html
+│   └── data/
+│       └── products.json
+├── src/
+│   ├── components/
+│   │   ├── Cart.jsx
+│   │   ├── Product.jsx
+│   │   └── ProductList.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── styles/
+│   │   └── App.css
+├── .gitignore
+├── package.json
+├── vite.config.js
+├── README.md
+
+## Accessing the Deployed Application
+You can view a live demo of the application at: <[Check out the USK Shopping Cart](https://uskshoppingcart.netlify.app/)>
