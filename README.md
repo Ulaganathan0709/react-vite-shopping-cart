@@ -52,7 +52,4 @@ react-vite-shopping-cart/
 
 ## Accessing the Deployed Application
 
-## Accessing the Deployed Application
-
 You can check out the live version of the project here: [uskshoppingcart.netlify.app](https://uskshoppingcart.netlify.app/)
-
