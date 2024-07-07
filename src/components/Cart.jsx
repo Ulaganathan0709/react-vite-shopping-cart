@@ -1,5 +1,6 @@
-// src/components/Cart.jsx
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
+import PropTypes from 'prop-types';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Cart = ({ cartItems }) => {
@@ -13,6 +14,10 @@ const Cart = ({ cartItems }) => {
       </div>
     </div>
   );
+};
+
+Cart.propTypes = {
+  cartItems: PropTypes.array.isRequired,
 };
 
 export default Cart;

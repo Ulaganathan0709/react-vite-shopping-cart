@@ -1,5 +1,7 @@
 // src/components/Product.jsx
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
+import PropTypes from 'prop-types';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Product = ({ product, addToCart, removeFromCart, cartItems }) => {
@@ -32,6 +34,19 @@ const Product = ({ product, addToCart, removeFromCart, cartItems }) => {
       </div>
     </div>
   );
+};
+
+Product.propTypes = {
+  product: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    name: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    price: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+  }).isRequired,
+  addToCart: PropTypes.func.isRequired,
+  removeFromCart: PropTypes.func.isRequired,
+  cartItems: PropTypes.array.isRequired,
 };
 
 export default Product;

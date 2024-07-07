@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import ProductList from './components/ProductList';
+import Cart from './components/Cart';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
         </div>
       </header>
       <ProductList addToCart={addToCart} removeFromCart={removeFromCart} cartItems={cartItems} />
+      <Cart cartItems={cartItems} />
     </div>
   );
 }

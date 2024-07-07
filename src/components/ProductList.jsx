@@ -1,12 +1,14 @@
 // src/components/ProductList.jsx
+// eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from 'react';
 import Product from './Product';
+import PropTypes from 'prop-types';
 
 const ProductList = ({ addToCart, removeFromCart, cartItems }) => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch('/src/data/products.json')
+    fetch('/data/products.json') // Ensure this path is correct
       .then(response => response.json())
       .then(data => setProducts(data));
   }, []);
@@ -26,6 +28,12 @@ const ProductList = ({ addToCart, removeFromCart, cartItems }) => {
       </div>
     </div>
   );
+};
+
+ProductList.propTypes = {
+  addToCart: PropTypes.func.isRequired,
+  removeFromCart: PropTypes.func.isRequired,
+  cartItems: PropTypes.array.isRequired,
 };
 
 export default ProductList;
